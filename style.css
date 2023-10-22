@@ -1,0 +1,74 @@
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: aquamarine;
+}
+input{
+    text-align: center;
+    font-size: 1.1em;
+}
+.logo{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+}
+.sign{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 55px;
+    height: 55px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    width: 251px;
+    height: 250px;
+    border: 0px solid white;
+    outline: 3px solid black;
+    background-color: white;
+    margin: 43px;
+}
+.boxx{
+    height: 160px;
+    background-size: cover;
+    width: 251px;
+    position: absolute;
+}
+.boxx2{
+    position: relative;
+    margin-top: 160px;
+}
+.bor1{
+    background-image: url(img1.jpeg);
+}
+.bor2{
+    background-image: url(img2.jpeg);
+}
+.bor3{
+    background-image: url(img3.jpeg);
+}
+.bor4{
+    background-image: url(img4.jpeg);
+}
+nav{
+    display: flex;
+    height: 215px;
+    font-size: 3.2em;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+}
